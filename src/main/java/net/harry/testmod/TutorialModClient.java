@@ -6,5 +6,7 @@ public class TutorialModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
+        int x = 0;
+        //test commit
     }
 }
