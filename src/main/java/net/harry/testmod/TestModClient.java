@@ -1,12 +1,13 @@
 package net.harry.testmod;
 
 import net.fabricmc.api.ClientModInitializer;
+import net.harry.testmod.item.ModItems;
 
-public class TutorialModClient implements ClientModInitializer {
+public class TestModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
-        int x = 0;
-        //test commit
+
+
     }
 }

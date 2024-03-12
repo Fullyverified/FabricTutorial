@@ -16,11 +16,11 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.harry.testmod.TutorialMod"
+          "net.harry.testmod.TestMod"
 
 		],
 		"client": [
-			"net.harry.testmod.TutorialModClient"
+			"net.harry.testmod.TestModClient"
 
 		],
 		"fabric-datagen": [
