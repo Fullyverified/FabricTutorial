@@ -2,7 +2,12 @@ package net.harry.testmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.harry.testmod.block.ModBlocks;
+import net.harry.testmod.item.ModItemGroups;
 import net.harry.testmod.item.ModItems;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,12 +18,12 @@ public class TestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
 
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+		ModBlocks.registerModBlockGroups();
 	}
 }

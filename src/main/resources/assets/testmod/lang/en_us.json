@@ -1,3 +1,9 @@
 {
-  "item.testmod.ruby" : "Ruby"
+  "item.testmod.ruby" : "Ruby",
+  "item.testmod.raw_ruby" : "Raw Ruby",
+  "item.testmod.jew_hunter" : "Jew Hunter",
+
+  "block.testmod.ruby_block": "Block of Ruby",
+
+  "itemgroup.ruby": "Rare Gems"
 }
